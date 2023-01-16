@@ -6,7 +6,6 @@ export const FlexDiv = styled.div`
 
 export const Ul = styled.ul`
     
-    /* Ul */
     width:20%;
     padding-left: 0;
     padding-top: 50px;
@@ -38,6 +37,7 @@ export const Ul = styled.ul`
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     & li:nth-child(2) {
         margin-bottom: 20px;
         background-image: url("https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1546&q=80");
@@ -45,6 +45,7 @@ export const Ul = styled.ul`
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     & li:nth-child(3) {
         background-image: url("https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29uc3VsdGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
         background-position: center;
@@ -75,7 +76,9 @@ export const Ul = styled.ul`
     }
 `;
 
+// How to plant background img and make it only opacified
 export const ImgContainorDefault = styled.div`
+    
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -100,6 +103,7 @@ export const ImgContainorDefault = styled.div`
 `;
 
 export const Title1 = styled.h1`
+    
     margin: 0;
     text-align: center;
     margin-bottom: 30px;
@@ -110,6 +114,7 @@ export const Title1 = styled.h1`
 `;
 
 export const Title2 = styled.h1`
+    
     margin: 0;
     text-align: center;
     transform: translateX(30px);
@@ -194,6 +199,7 @@ export const ImgContainorConsulting = styled.div`
 `;
 
 export const ShortSummary = styled.h1`
+    
     margin: 0;
     margin-right: 80px;
     text-align: right;

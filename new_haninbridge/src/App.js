@@ -5,6 +5,7 @@ import Interpretation from './pages/interpretation';
 import Aboutus from './pages/aboutus';
 function App() {
   return (
+    // Routing format
     <div>
       <Router>
         <Routes>

@@ -3,11 +3,15 @@ import Img from "../../pages/landing/img"
 import { FlexDiv, Ul } from "./style";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-function Landing () {
 
+// Main engine of Landing page
+function Landing () {
+    // Change currImg with using useState
     const [currImg, setCurrImg] = useState('default');
-    
+
+    // When user puts mouse on the li
     function handleMouseEnter(currState) {
+        // change to proper img and rerender the UI
         setCurrImg(currState);
     }
 
