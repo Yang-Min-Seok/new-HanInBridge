@@ -7,14 +7,14 @@ export const FlexDiv = styled.div`
 export const Ul = styled.ul`
     
     /* Ul */
-    width:30%;
+    width:20%;
     padding-left: 0;
     padding-top: 50px;
     padding-bottom: 50px;
     margin:0;
     
     li {
-        width:60%;
+        width:100%;
         margin:0 auto;
         list-style: none;
         display: flex;
@@ -60,13 +60,17 @@ export const Ul = styled.ul`
         background-color: rgba(166, 121, 81, 0.7);
         color: #fff;
         border-radius: 15px;
-        font-size: 17px;
+        font-size: 20px;
         transition: all 0.7s;
     }
     
     li p:hover {
         background-color: #000;
         cursor: pointer;
+    }
+
+    li p link {
+        text-decoration: none;
     }
 `;
 
@@ -76,13 +80,26 @@ export const ImgContainorDefault = styled.div`
     justify-content: center;
     margin: 0 auto;
     width:70%;
+    position: relative;
+    
+    &::before{
+        content:"";
+        background-color: #A67951;
+        opacity: 0.2;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        border-radius: 15px;
+    }
 `;
 
 export const Title1 = styled.h1`
     margin: 0;
     text-align: center;
     margin-bottom: 30px;
-    transform: translateX(-230px);
+    transform: translateX(-260px);
     color: #A67951;
     font-size:70px;
 `;
@@ -90,7 +107,7 @@ export const Title1 = styled.h1`
 export const Title2 = styled.h1`
     margin: 0;
     text-align: center;
-    transform: translateX(40px);
+    transform: translateX(30px);
     color: #A67951;
     font-size:70px;
 `;
