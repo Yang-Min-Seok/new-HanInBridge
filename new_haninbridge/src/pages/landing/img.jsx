@@ -16,27 +16,21 @@ function Img ({currImg}) {
     else if (currImg === 'aboutus') {
         return (
             <ImgContainorAboutus>
-                <Title1>
-                    
-                </Title1>
+                
             </ImgContainorAboutus>
         )
     }
     else if (currImg === 'interpretation') {
         return (
             <ImgContainorInterpretation>
-                <Title1>
-
-                </Title1>
+                
             </ImgContainorInterpretation>
         )
     }
     else if (currImg === 'consulting') {
         return (
             <ImgContainorConsulting>
-                <Title1>
-
-                </Title1>
+                
             </ImgContainorConsulting>
         )
     }
