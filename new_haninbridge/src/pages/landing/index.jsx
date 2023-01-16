@@ -15,11 +15,18 @@ function Landing () {
             <Wrapper>
                 <FlexDiv>
                     <Ul>
-                        <li onMouseEnter={()=>handleMouseEnter('aboutus')}>About us</li>
-                        <li onMouseEnter={()=>handleMouseEnter('interpretation')}>Interpretation</li>
-                        <li onMouseEnter={()=>handleMouseEnter('consulting')}>Consulting</li>
+                        <li onMouseEnter={()=>handleMouseEnter('aboutus')}>
+                           <p>About us</p>
+                        </li>
+                        <li onMouseEnter={()=>handleMouseEnter('interpretation')}>
+                            <p>Interpretation</p>
+                        </li>
+                        <li onMouseEnter={()=>handleMouseEnter('consulting')}>
+                            <p>Consulting</p>
+                        </li>
                     </Ul>
                     <Img currImg={currImg}></Img>
+                    
                 </FlexDiv>
             </Wrapper>
     );

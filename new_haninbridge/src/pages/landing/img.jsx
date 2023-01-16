@@ -1,22 +1,43 @@
+import { ImgContainorAboutus, ImgContainorConsulting, ImgContainorDefault, ImgContainorInterpretation, Title1, Title2 } from "./style";
 function Img ({currImg}) {
     if (currImg === 'default') {
         return (
-            <h1>Hello we are HanIn Bridge !</h1>
+            <ImgContainorDefault>
+                <Title1>
+                    Hello,
+                </Title1>
+                <Title2>
+                    We are HanIn Bridge !
+                </Title2>
+            </ImgContainorDefault>
+            
         )
     }
     else if (currImg === 'aboutus') {
         return (
-            <img src="" alt="Aboutus"></img>
+            <ImgContainorAboutus>
+                <Title1>
+                    
+                </Title1>
+            </ImgContainorAboutus>
         )
     }
     else if (currImg === 'interpretation') {
         return (
-            <img src="" alt="Interpretation"></img>
+            <ImgContainorInterpretation>
+                <Title1>
+
+                </Title1>
+            </ImgContainorInterpretation>
         )
     }
     else if (currImg === 'consulting') {
         return (
-            <img src="" alt="Consulting"></img>
+            <ImgContainorConsulting>
+                <Title1>
+
+                </Title1>
+            </ImgContainorConsulting>
         )
     }
 
