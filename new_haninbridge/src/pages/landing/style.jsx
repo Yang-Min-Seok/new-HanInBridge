@@ -60,6 +60,7 @@ export const Ul = styled.ul`
         background-color: rgba(166, 121, 81, 0.7);
         color: #fff;
         border-radius: 15px;
+        font-family: serif;
         font-size: 20px;
         transition: all 0.7s;
     }
@@ -84,8 +85,11 @@ export const ImgContainorDefault = styled.div`
     
     &::before{
         content:"";
-        background-color: #A67951;
-        opacity: 0.2;
+        background-image: url("https://images.unsplash.com/photo-1555852441-ca0d327da1e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGluZG9uZXNpYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.75;
         position: absolute;
         top: 0px;
         left: 0px;
@@ -101,6 +105,7 @@ export const Title1 = styled.h1`
     margin-bottom: 30px;
     transform: translateX(-260px);
     color: #A67951;
+    font-family: serif;
     font-size:70px;
 `;
 
@@ -109,25 +114,26 @@ export const Title2 = styled.h1`
     text-align: center;
     transform: translateX(30px);
     color: #A67951;
+    font-family: serif;
     font-size:70px;
 `;
 
 export const ImgContainorAboutus = styled.div`
+    
     display:flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
     width:70%;
-    transition: 0.7s;
     position:relative;
-    
+
     &::before{
         content:"";
         background-image: url("https://images.unsplash.com/photo-1602306834394-6c8b7ea0ed9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGFib3V0JTIwdXN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        opacity: 0.9;
+        opacity: 0.6;
         position: absolute;
         top: 0px;
         left: 0px;
@@ -138,12 +144,12 @@ export const ImgContainorAboutus = styled.div`
 `;
 
 export const ImgContainorInterpretation = styled.div`
+    
     display:flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
     width:70%;
-    transition: 0.7s;
     position:relative;
     
     &::before{
@@ -152,7 +158,7 @@ export const ImgContainorInterpretation = styled.div`
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        opacity: 0.9;
+        opacity: 0.6;
         position: absolute;
         top: 0px;
         left: 0px;
@@ -163,12 +169,12 @@ export const ImgContainorInterpretation = styled.div`
 `;
 
 export const ImgContainorConsulting = styled.div`
+    
     display:flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
     width:70%;
-    transition: 0.7s;
     position:relative;
     
     &::before{
@@ -177,7 +183,7 @@ export const ImgContainorConsulting = styled.div`
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        opacity: 0.9;
+        opacity: 0.6;
         position: absolute;
         top: 0px;
         left: 0px;
@@ -185,4 +191,16 @@ export const ImgContainorConsulting = styled.div`
         bottom: 0px;
         border-radius: 15px;
     }
+`;
+
+export const ShortSummary = styled.h1`
+    margin: 0;
+    margin-right: 80px;
+    text-align: right;
+    color: #000;
+    font-family: serif;
+    font-size: 50px;
+    /* This stops to be opacitied */
+    z-index: 1;
+    line-height:1.5;
 `;
