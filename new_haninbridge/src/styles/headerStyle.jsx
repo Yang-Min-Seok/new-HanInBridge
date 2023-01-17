@@ -29,22 +29,20 @@ export const NavigationBar = styled.div`
 
     /* This means <Link> */
     a { 
-
         width:15%;
         display: block;
 
         text-align: center;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 30px;
         color: #000;
-        
-        transition: 1s;
+        transition: 0.5s;
     }
 
     a:hover{
-        background-color: #A67951;
-        color: #fff;
+        color:#A67951;
         border-radius: 10px;
+        font-weight: 800;
     }
 
 `;
