@@ -35,6 +35,7 @@ export const NavigationBar = styled.div`
         text-align: center;
         text-decoration: none;
         font-size: 30px;
+        line-height: 2.5;
         color: #000;
         transition: 0.5s;
     }
@@ -48,13 +49,13 @@ export const NavigationBar = styled.div`
 `;
 
 export const ToAboutUs = styled.p`
-    
+    margin:0;
 `;
 
 export const ToInterpreation = styled.p`
-    
+    margin: 0;
 `;
 
 export const ToConsulting = styled.p`
-    
+    margin: 0;
 `;
