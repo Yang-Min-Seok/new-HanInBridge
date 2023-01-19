@@ -51,6 +51,7 @@ export const IntroContentBox = styled.div`
 `;
 
 export const IntroContent = styled.p`
+    margin: 0;
     font-size: 30px;
     line-height: 2.5;
     font-weight: 900;

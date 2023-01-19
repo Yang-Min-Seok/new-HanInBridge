@@ -31,7 +31,6 @@ export const NavigationBar = styled.div`
     a { 
         width:15%;
         display: block;
-
         text-align: center;
         text-decoration: none;
         font-size: 30px;
