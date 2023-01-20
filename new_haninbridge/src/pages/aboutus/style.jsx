@@ -73,7 +73,7 @@ export const PartnerTitle = styled.h1`
 
 export const PartnerSlide = styled.div`
     width: 90%;
-    height: 600px;
+    height: 700px;
     margin: 0 auto;
     border: 3px solid #A67951;
     box-sizing: border-box;

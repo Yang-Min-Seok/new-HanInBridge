@@ -1,4 +1,10 @@
 import { BodyDiv, IntroBox, IntroUpTitle, IntroDownTitle, IntroContentBox, IntroContent, PartnerBox, PartnerTitle, PartnerSlide, DirectorBox, DirectorTitle, DirectorContentBox, DirectorImg, DirectorNameAndContentBox, DirectorName, DirectorContent } from "./style";
+// swiper Js setting
+import "swiper/css/bundle";
+import "./slideStyle.css";
+
+//import Slide
+import Slide from "./swiperjs"
 function Body() {
     return (
         <BodyDiv>
@@ -22,7 +28,7 @@ function Body() {
             <PartnerBox>
                 <PartnerTitle>Our Partners</PartnerTitle>
                 <PartnerSlide>
-
+                    <Slide></Slide>
                 </PartnerSlide>
             </PartnerBox>
             <DirectorBox>
