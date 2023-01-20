@@ -1,5 +1,11 @@
 import { BodyDiv, Intro, IntroUpTitle, IntroDownTitle, IntroContentBox, IntroContent, History, HistoryTitle, HistoryContentBox, HistoryContent, SlideBox } from "./style"
 
+// swiper Js setting
+import "swiper/css/bundle";
+import "./slideStyle.css";
+
+//import Slide
+import Slide from "./swiperjs"
 function Body() {
     return (
         <BodyDiv>
@@ -32,7 +38,7 @@ function Body() {
                     The path we've been through
                 </HistoryTitle>
                 <SlideBox>
-
+                    <Slide></Slide>
                 </SlideBox>
                 <HistoryContentBox>
                     <HistoryContent>
