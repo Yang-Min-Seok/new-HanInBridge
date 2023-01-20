@@ -24,8 +24,8 @@ export default function SlideShow() {
         modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide className="img1"></SwiperSlide>
-        <SwiperSlide className="img2"></SwiperSlide>
+        <SwiperSlide className="consultingImg1"></SwiperSlide>
+        <SwiperSlide className="consultingImg2"></SwiperSlide>
       </Swiper>
     </>
   );

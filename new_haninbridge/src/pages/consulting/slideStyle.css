@@ -3,14 +3,14 @@
     height: 100%;
 }
 
-.swiper-wrapper .img1 {
+.swiper-wrapper .consultingImg1 {
     background-image: url("../../resources/images/consulting/Consulting_1.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.swiper-wrapper .img2 {
+.swiper-wrapper .consultingImg2 {
     background-image: url("../../resources/images/consulting/Consulting_2.jpeg");
     background-position: center;
     background-repeat: no-repeat;
