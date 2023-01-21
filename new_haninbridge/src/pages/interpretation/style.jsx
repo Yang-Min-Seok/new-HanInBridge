@@ -214,12 +214,14 @@ export const GeneralContentBox = styled.div`
     width: 65%;
     border: 3px solid #A67951;
     box-sizing: border-box;
-    padding: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 `;
 
 export const GeneralContent = styled.p`
-    margin: 0;
-    font-size: 20px;
+    margin: 0 auto;
+    font-size: 23px;
     line-height: 2.5;
     font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
@@ -246,12 +248,14 @@ export const DocumentContentBox = styled.div`
     width: 65%;
     border: 3px solid #A67951;
     box-sizing: border-box;
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 `;
 
 export const DocumentContent = styled.p`
-    margin: 0;
-    font-size: 20px;
+    margin: 0 auto;
+    font-size: 23px;
     line-height: 2.5;
     font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
@@ -288,12 +292,14 @@ export const PhoneContentBox = styled.div`
     width: 55%;
     border: 3px solid #A67951;
     box-sizing: border-box;
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 `;
 
 export const PhoneContent = styled.p`
-    margin: 0;
-    font-size: 20px;
+    margin: 0 auto;
+    font-size: 23px;
     line-height: 2.5;
     font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
