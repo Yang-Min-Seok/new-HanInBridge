@@ -1,0 +1,29 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper .documentImg1 {
+    background-image: url("../../resources/images/interpretation/Document_Interpretation/document_interpretation_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-wrapper .documentImg2 {
+    background-image: url("../../resources/images/interpretation/Document_Interpretation/document_interpretation_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-pagination-bullet {
+    width:25px !important;
+    height:25px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #A67951 !important;
+    width:25px !important;
+    height:25px !important;
+}

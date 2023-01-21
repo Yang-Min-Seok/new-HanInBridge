@@ -205,12 +205,13 @@ export const GeneralSlideAndContentBox = styled.div`
     justify-content: space-between;
 `;
 
-export const GeneralSlide = styled.div`
-    width: 35%;
+export const GeneralSlideBox = styled.div`
+    height: 360px;
+    width: 30%;
 `;
 
 export const GeneralContentBox = styled.div`
-    width: 60%;
+    width: 65%;
     border: 3px solid #A67951;
     box-sizing: border-box;
     padding: 50px;
@@ -242,7 +243,7 @@ export const DocumentSlideAndContentBox = styled.div`
 `;
 
 export const DocumentContentBox = styled.div`
-    width: 60%;
+    width: 65%;
     border: 3px solid #A67951;
     box-sizing: border-box;
     padding: 50px;
@@ -257,8 +258,9 @@ export const DocumentContent = styled.p`
     text-align: right;
 `;
 
-export const DocumentSlide = styled.div`
-    width: 35%;
+export const DocumentSlideBox = styled.div`
+    height: 360px;
+    width: 30%;
 `;
 
 export const PhoneTitle = styled.h1`
@@ -277,12 +279,13 @@ export const PhoneSlideAndContentBox = styled.div`
     justify-content: space-between;
 `;
 
-export const PhoneSlide = styled.div`
-    width: 35%;
+export const PhoneSlideBox = styled.div`
+    height: 360px;
+    width: 40%;
 `;
 
 export const PhoneContentBox = styled.div`
-    width: 60%;
+    width: 55%;
     border: 3px solid #A67951;
     box-sizing: border-box;
     padding: 50px;

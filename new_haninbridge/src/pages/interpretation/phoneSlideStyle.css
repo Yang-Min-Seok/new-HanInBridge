@@ -1,0 +1,23 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper .phoneImg1 {
+    background-image: url("../../resources/images/interpretation/Phone_Interpretation/phone_interpretation.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 5px;
+}
+
+.swiper-pagination-bullet {
+    width:25px !important;
+    height:25px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #A67951 !important;
+    width:25px !important;
+    height:25px !important;
+}

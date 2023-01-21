@@ -1,0 +1,36 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper .generalImg1 {
+    background-image: url("../../resources/images/interpretation/General_Interpretation/general_interpretation_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-wrapper .generalImg2 {
+    background-image: url("../../resources/images/interpretation/General_Interpretation/general_interpretation_2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-wrapper .generalImg3 {
+    background-image: url("../../resources/images/interpretation/General_Interpretation/general_interpretation_3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-pagination-bullet {
+    width:25px !important;
+    height:25px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #A67951 !important;
+    width:25px !important;
+    height:25px !important;
+}

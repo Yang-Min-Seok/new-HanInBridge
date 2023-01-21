@@ -1,4 +1,15 @@
-import { BodyDiv, IntroBox, IntroUpTitle, IntroDownTitle, IntroContentBox, IntroContent, InterpreterBox, InterpreterUpTitle, InterpreterDownTitle, PJWBox, PJWImg, PJWContentBox, PJWName, PJWContent, PJWResume, YTHBox, YTHContentBox, YTHName, YTHContent, YTHResume, YTHImg, ServiceBox, GeneralTitle, GeneralSlideAndContentBox, GeneralSlide, GeneralContentBox, GeneralContent, DocumentTitle, DocumentSlideAndContentBox, DocumentContentBox, DocumentContent, DocumentSlide, PhoneTitle, PhoneSlideAndContentBox, PhoneSlide, PhoneContentBox, PhoneContent } from "./style";
+import { BodyDiv, IntroBox, IntroUpTitle, IntroDownTitle, IntroContentBox, IntroContent, InterpreterBox, InterpreterUpTitle, InterpreterDownTitle, PJWBox, PJWImg, PJWContentBox, PJWName, PJWContent, PJWResume, YTHBox, YTHContentBox, YTHName, YTHContent, YTHResume, YTHImg, ServiceBox, GeneralTitle, GeneralSlideAndContentBox, GeneralSlideBox, GeneralContentBox, GeneralContent, DocumentTitle, DocumentSlideAndContentBox, DocumentContentBox, DocumentContent, DocumentSlideBox, PhoneTitle, PhoneSlideAndContentBox, PhoneSlideBox, PhoneContentBox, PhoneContent } from "./style";
+
+// swiper Js setting
+import "swiper/css/bundle";
+import "./generalSlideStyle.css";
+import "./documentSlideStyle.css";
+import "./phoneSlideStyle.css";
+
+// import slides
+import GeneralSlide from "./generalSlide"
+import DocumentSlide from "./documentSlide"
+import PhoneSlide from "./phoneSlide"
 
 function Body() {
     return (
@@ -48,7 +59,9 @@ function Body() {
             <ServiceBox>
                 <GeneralTitle>General Interpretation</GeneralTitle>
                 <GeneralSlideAndContentBox>
-                    <GeneralSlide>Slide</GeneralSlide>
+                    <GeneralSlideBox>
+                        <GeneralSlide></GeneralSlide>
+                    </GeneralSlideBox>
                     <GeneralContentBox>
                         <GeneralContent>
                         한인브릿지 통역 서비스는<br />
@@ -71,12 +84,16 @@ function Body() {
                             한국과 인도네시아를 잇는 다리 역할을 책임집니다.
                             </DocumentContent>
                     </DocumentContentBox>
-                    <DocumentSlide>Slide</DocumentSlide>
+                    <DocumentSlideBox>
+                        <DocumentSlide></DocumentSlide>
+                    </DocumentSlideBox>
                 </DocumentSlideAndContentBox>
 
                 <PhoneTitle>Phone Interpretation</PhoneTitle>
                 <PhoneSlideAndContentBox>
-                    <PhoneSlide>Slide</PhoneSlide>
+                    <PhoneSlideBox>
+                        <PhoneSlide></PhoneSlide>
+                    </PhoneSlideBox>
                     <PhoneContentBox>
                         <PhoneContent>
                             인도네시아에 있는 한국인 또는<br />
