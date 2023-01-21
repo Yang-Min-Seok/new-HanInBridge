@@ -100,6 +100,11 @@ export const PJWImg = styled.div`
 
 export const PJWContentBox = styled.div`
     width: 47%;
+
+    & a{
+        text-decoration: none;
+        color:#000;
+    }
 `;
 
 export const PJWName = styled.h1`
@@ -144,6 +149,11 @@ export const YTHBox = styled.div`
 
 export const YTHContentBox = styled.div`
     width: 47%;
+
+    & a{
+        text-decoration: none;
+        color:#000;
+    }
 `;
 
 export const YTHName = styled.h1`

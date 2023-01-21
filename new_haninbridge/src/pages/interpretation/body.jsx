@@ -40,7 +40,9 @@ function Body() {
                             ・ 한국외국어대학교 말레이-인도네시아어과 졸업<br />
                             ・ 現 한인브릿지 대표
                         </PJWContent>
-                        <PJWResume>Click to Download Resume</PJWResume>
+                        <a href="JinWooPark_resume.pdf" download={"JinWooPark Resume"}>
+                            <PJWResume>Click to Download Resume</PJWResume>
+                        </a>
                     </PJWContentBox>
                 </PJWBox>
                 <YTHBox>
@@ -50,7 +52,9 @@ function Body() {
                             ・ 서울 중앙대학교 공과대학 기계공학부 졸업<br />
                             ・ 現 한인브릿지 팀장
                         </YTHContent>
-                        <YTHResume>Click to Download Resume</YTHResume>
+                        <a href="TaeHoonYang_resume.pdf" download={"TaeHoonYang Resume"}>
+                            <YTHResume>Click to Download Resume</YTHResume>
+                        </a>
                     </YTHContentBox>
                     <YTHImg></YTHImg>
                 </YTHBox>
@@ -64,11 +68,11 @@ function Body() {
                     </GeneralSlideBox>
                     <GeneralContentBox>
                         <GeneralContent>
-                        한인브릿지 통역 서비스는<br />
-                        현장 통역, 온라인 화상 통역 서비스를 제공하고 있습니다.<br />
-                        인도네시아어 실력과<br />
-                        다양한 분야에 전문성을 보유하고 있는 통역사가<br />
-                        최고의 퀄리티로 인도네시아어라는 언어 장벽을 넘게 해드립니다.<br />
+                            한인브릿지 통역 서비스는<br />
+                            현장 통역, 온라인 화상 통역 서비스를 제공하고 있습니다.<br />
+                            인도네시아어 실력과<br />
+                            다양한 분야에 전문성을 보유하고 있는 통역사가<br />
+                            최고의 퀄리티로 인도네시아어라는 언어 장벽을 넘게 해드립니다.<br />
                         </GeneralContent>
                     </GeneralContentBox>
                 </GeneralSlideAndContentBox>
@@ -82,7 +86,7 @@ function Body() {
                             각종 분야에 전문성 또한 풍부한 번역물로,<br />
                             신속함과 함께 차원이 다른 퀄리티와 결과물로<br />
                             한국과 인도네시아를 잇는 다리 역할을 책임집니다.
-                            </DocumentContent>
+                        </DocumentContent>
                     </DocumentContentBox>
                     <DocumentSlideBox>
                         <DocumentSlide></DocumentSlide>
