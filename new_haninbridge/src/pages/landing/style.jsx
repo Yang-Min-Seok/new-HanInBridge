@@ -111,7 +111,7 @@ export const Title1 = styled.h1`
     text-align: center;
     margin-bottom: 30px;
     transform: translateX(-260px);
-    color: #A67951;
+    color: #000;
     font-family: serif;
     font-size:70px;
 `;
@@ -121,7 +121,7 @@ export const Title2 = styled.h1`
     margin: 0;
     text-align: center;
     transform: translateX(30px);
-    color: #A67951;
+    color: #000;
     font-family: serif;
     font-size:70px;
 `;
