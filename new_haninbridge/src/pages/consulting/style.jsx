@@ -1,5 +1,6 @@
 import styled from "styled-components";
-
+import introImg from "../../resources/images/consulting/introBackground.jpg"
+import pathImg from "../../resources/images/consulting/pathBackground.jpg"
 export const BodyDiv = styled.div`
     
 `;
@@ -38,7 +39,7 @@ export const IntroContentBox = styled.div`
 
     &::before{
         content: "";
-        background-image: url("https://images.unsplash.com/photo-1476158085676-e67f57ed9ed7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW5kb25lc2lhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+        background-image: url(${introImg});
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -96,7 +97,7 @@ export const HistoryContentBox = styled.div`
 
     &::before{
         content: "";
-        background-image: url("https://images.unsplash.com/photo-1442544213729-6a15f1611937?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kb25lc2lhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+        background-image: url(${pathImg});
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
