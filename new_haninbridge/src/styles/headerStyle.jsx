@@ -1,6 +1,6 @@
 import styled from "styled-components";
 // How to import img from outside
-import headerLogo from "../resources/images/common/logo.jpeg"
+import headerLogo from "../resources/images/logos/logo.jpeg"
 export const HeaderDiv = styled.div`
     
 `;

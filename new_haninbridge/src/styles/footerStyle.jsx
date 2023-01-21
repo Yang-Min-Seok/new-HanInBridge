@@ -1,6 +1,6 @@
 import styled from "styled-components";
 /* How to deal with Img in using styled-components 1*/
-import footerLogo from "../resources/images/common/footer_logo.png"
+import footerLogo from "../resources/images/logos/footer_logo.png"
 
 export const FooterDiv = styled.div`
     background-color: #5a5a5a;
