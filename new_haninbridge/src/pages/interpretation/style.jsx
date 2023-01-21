@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import PJWImage from "../../resources/images/interpretation/interpreter/pjw.jpeg"
 import YTHImage from "../../resources/images/interpretation/interpreter/yth.jpeg"
+import introImg from "../../resources/images/interpretation/intro/introBackground.jpg"
 export const BodyDiv = styled.div`
     
 `;
@@ -39,7 +40,7 @@ export const IntroContentBox = styled.div`
     position: relative;
     & ::before {
         content:"";
-        background-image: url("https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8JUVCJUIyJTg4JUVDJTk3JUFEfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+        background-image: url(${introImg});
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

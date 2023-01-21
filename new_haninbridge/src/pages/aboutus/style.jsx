@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import CeoImg from "../../resources/images/aboutUs/Director/director.jpeg"
+import introImg from "../../resources/images/aboutUs/Intro/introBackground.jpg"
 export const BodyDiv = styled.div`
     
 `;
@@ -37,7 +38,7 @@ export const IntroContentBox = styled.div`
     position: relative;
     & ::before{
         content:"";
-        background-image: url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWlycGxhbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+        background-image: url(${introImg});
         position: absolute;
         background-repeat: no-repeat;
         background-size: cover;
