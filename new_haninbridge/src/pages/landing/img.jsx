@@ -1,8 +1,10 @@
-import { ImgContainorAboutus, ImgContainorConsulting, ImgContainorDefault, ImgContainorInterpretation, Title1, Title2, ShortSummary } from "./style";
+import { ImgContainorAboutus, ImgContainorConsulting, ImgContainorDefault, ImgContainorInterpretation, Title1, Title2, ShortSummary, LocationAndWeather } from "./style";
+
 function Img ({currImg}) {
     
     // default screen
     if (currImg === 'default') {
+
         return (
             <ImgContainorDefault>
                 <Title1>
@@ -11,6 +13,7 @@ function Img ({currImg}) {
                 <Title2>
                     We are HanIn Bridge !
                 </Title2>
+                <LocationAndWeather></LocationAndWeather>
             </ImgContainorDefault>
             
         )

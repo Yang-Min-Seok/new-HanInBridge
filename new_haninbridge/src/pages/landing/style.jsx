@@ -126,6 +126,13 @@ export const Title2 = styled.h1`
     font-size:70px;
 `;
 
+export const LocationAndWeather = styled.p`
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    line-height: 3;
+    font-family: 'Times New Roman', Times, serif;
+`
 export const ImgContainorAboutus = styled.div`
     
     display:flex;
