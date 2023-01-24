@@ -18,7 +18,8 @@ const getUserLocationAndWeather = async (isEnabled, coords) => {
       try {
         const name = response.data.name;
         const weather = response.data.weather[0].main;
-        return `${name}     ${weather}`;
+        const celsius = response.data.main.temp;
+        return `${name} ${weather} ${celsius}℃`;
       } catch (error) {
         console.log(error);
       }
