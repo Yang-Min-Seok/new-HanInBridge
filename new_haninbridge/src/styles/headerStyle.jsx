@@ -6,7 +6,10 @@ export const HeaderDiv = styled.div`
 `;
 
 export const HeaderLogo = styled.div`
-    
+    @media only screen and (max-width: 768px){
+        height: 100px;
+        width: 200px;
+    }
     height: 150px;
     width: 300px;
     margin:0 auto;
@@ -29,6 +32,10 @@ export const NavigationBar = styled.div`
 
     /* This means <Link> */
     a { 
+        @media only screen and (max-width: 768px){
+            width:30%;
+            font-size: 18px;
+        }
         width:15%;
         display: block;
         text-align: center;
