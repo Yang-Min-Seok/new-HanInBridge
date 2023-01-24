@@ -1,7 +1,19 @@
 import { ImgContainorAboutus, ImgContainorConsulting, ImgContainorDefault, ImgContainorInterpretation, Title1, Title2, ShortSummary, LocationAndWeather } from "./style";
-
+import getUserLocationAndWeather from "../../apis/locationAndWeather";
+import { useEffect, useState } from "react";
+import useGeolocation from "react-navigator-geolocation";
 function Img ({currImg}) {
     
+    const [data, setData] = useState();
+    const { isEnabled, coords } = useGeolocation();
+    useEffect(() => {
+        async function fetchUserLocationAndWeatherData(isEnabled, coords) {
+        const data = await getUserLocationAndWeather(isEnabled, coords);
+        setData(data);
+        }
+        fetchUserLocationAndWeatherData(isEnabled, coords);
+    }, [isEnabled, coords]);
+
     // default screen
     if (currImg === 'default') {
 
@@ -13,7 +25,9 @@ function Img ({currImg}) {
                 <Title2>
                     We are HanIn Bridge !
                 </Title2>
-                <LocationAndWeather></LocationAndWeather>
+                <LocationAndWeather>
+                    {data}
+                </LocationAndWeather>
             </ImgContainorDefault>
             
         )

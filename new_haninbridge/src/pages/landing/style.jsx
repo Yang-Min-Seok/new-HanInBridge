@@ -174,7 +174,8 @@ export const Title2 = styled.h1`
 export const LocationAndWeather = styled.p`
     margin: 0;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 900;
     line-height: 3;
     font-family: 'Times New Roman', Times, serif;
 `
