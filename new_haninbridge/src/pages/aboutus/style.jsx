@@ -138,9 +138,9 @@ export const DirectorContentBox = styled.div`
 
 export const DirectorImg = styled.div`
     @media only screen and (max-width: 768px){
-        height:400px;
+        height:350px;
         width: 100%;
-        background-position-y: -100px;
+        background-position-y: -150px;
     }
     width: 45%;
     background-image: url(${CeoImg});

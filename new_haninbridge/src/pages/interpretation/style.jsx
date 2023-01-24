@@ -1,7 +1,10 @@
 import styled from "styled-components";
-import PJWImage from "../../resources/images/interpretation/interpreter/pjw.jpeg"
-import YTHImage from "../../resources/images/interpretation/interpreter/yth.jpeg"
-import introImg from "../../resources/images/interpretation/intro/introBackground.jpg"
+import PJWImage from "../../resources/images/interpretation/interpreter/pjw.jpeg";
+import YTHImage from "../../resources/images/interpretation/interpreter/yth.jpeg";
+import introImg from "../../resources/images/interpretation/intro/introBackground.jpg";
+import GIImg from "../../resources/images/interpretation/General_Interpretation/general_interpretation_2.jpeg";
+import DIImg from "../../resources/images/interpretation/Document_Interpretation/document_interpretation_2.jpg"
+import PIImg from "../../resources/images/interpretation/Phone_Interpretation/phone_urgent.jpg";
 export const BodyDiv = styled.div`
     
 `;
@@ -11,6 +14,10 @@ export const IntroBox = styled.div`
 `;
 
 export const IntroUpTitle = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
     margin: 0;
     font-size: 70px;
     font-weight: 100;
@@ -20,6 +27,10 @@ export const IntroUpTitle = styled.h1`
 `;
 
 export const IntroDownTitle = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
     margin: 0;
     font-size: 55px;
     font-weight: 100;
@@ -29,6 +40,11 @@ export const IntroDownTitle = styled.h1`
 `;
 
 export const IntroContentBox = styled.div`
+    @media only screen and (max-width: 768px){
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding:10px;
+    }
     width: 90%;
     margin: 0 auto;
     margin-top: 50px;
@@ -54,6 +70,9 @@ export const IntroContentBox = styled.div`
 `;
 
 export const IntroContent = styled.p`
+    @media only screen and (max-width: 768px){
+        font-size: 15px;
+    }
     margin: 0;
     font-size: 30px;
     line-height: 2.5;
@@ -63,10 +82,16 @@ export const IntroContent = styled.p`
 `;
 
 export const InterpreterBox = styled.div`
+    @media only screen and (max-width: 768px){
+        margin-bottom: 0px;
+    }
     margin-bottom: 50px;
 `;
 
 export const InterpreterUpTitle = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 30px;
+    }
     margin: 0;
     font-size: 70px;
     font-weight: 500;
@@ -75,6 +100,9 @@ export const InterpreterUpTitle = styled.h1`
 `;
 
 export const InterpreterDownTitle = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 15px;
+    }
     margin: 0;
     font-size: 45px;
     font-weight: 900;
@@ -83,6 +111,10 @@ export const InterpreterDownTitle = styled.h1`
 `;
 
 export const PJWBox = styled.div`
+    @media only screen and (max-width: 768px){
+        display:block;
+        margin-top: 30px;
+    }
     width: 90%;
     margin: 0 auto;
     margin-top: 50px;
@@ -91,6 +123,12 @@ export const PJWBox = styled.div`
 `;
 
 export const PJWImg = styled.div`
+    @media only screen and (max-width: 768px){
+        height:350px;
+        width:100%;
+        margin: 0 auto;
+        background-position-y: -150px;
+    }
     width: 47%;
     background-image: url(${PJWImage});
     background-repeat: no-repeat;
@@ -99,6 +137,9 @@ export const PJWImg = styled.div`
 `;
 
 export const PJWContentBox = styled.div`
+    @media only screen and (max-width: 768px){
+        width:100%;
+    }
     width: 47%;
 
     & a{
@@ -108,6 +149,11 @@ export const PJWContentBox = styled.div`
 `;
 
 export const PJWName = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 30px;
+        font-weight: 100;
+        line-height: 3;
+    }
     margin: 0 auto;
     text-align: center;
     font-size: 50px;
@@ -117,6 +163,10 @@ export const PJWName = styled.h1`
 `;
 
 export const PJWContent = styled.p`
+    @media only screen and (max-width: 768px){
+        font-size: 15px;
+        padding: 50px 0 ;
+    }
     margin: 0;
     padding: 100px 0 ;
     font-size: 25px;
@@ -128,6 +178,10 @@ export const PJWContent = styled.p`
 `;
 
 export const PJWResume = styled.p`
+    @media only screen and (max-width: 768px){
+        margin: 30px 0;
+        font-size: 20px;
+    }
     margin: 100px 0;
     font-size: 35px;
     text-align: center;
@@ -140,6 +194,10 @@ export const PJWResume = styled.p`
 `;
 
 export const YTHBox = styled.div`
+    @media only screen and (max-width: 768px){
+        display:block;
+        margin-top: 0;
+    }
     width: 90%;
     margin: 0 auto;
     margin-top: 50px;
@@ -148,6 +206,9 @@ export const YTHBox = styled.div`
 `;
 
 export const YTHContentBox = styled.div`
+    @media only screen and (max-width: 768px){
+        width:100%;    
+    }
     width: 47%;
 
     & a{
@@ -157,6 +218,11 @@ export const YTHContentBox = styled.div`
 `;
 
 export const YTHName = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 30px;
+        font-weight: 100;
+        line-height: 3;
+    }
     margin: 0 auto;
     text-align: center;
     font-size: 50px;
@@ -166,6 +232,10 @@ export const YTHName = styled.h1`
 `;
 
 export const YTHContent = styled.p`
+    @media only screen and (max-width: 768px){
+        font-size: 15px;
+        padding: 50px 0 ;
+    }
     margin: 0;
     padding: 100px 0 ;
     font-size: 25px;
@@ -177,6 +247,10 @@ export const YTHContent = styled.p`
 `;
 
 export const YTHResume = styled.p`
+    @media only screen and (max-width: 768px){
+        margin: 30px 0;
+        font-size: 20px;
+    }
     margin: 100px 0;
     font-size: 35px;
     text-align: center;
@@ -189,6 +263,9 @@ export const YTHResume = styled.p`
 `;
 
 export const YTHImg = styled.div`
+    @media only screen and (max-width: 768px){
+        display: none;
+    }
     width: 47%;
     background-image: url(${YTHImage});
     background-repeat: no-repeat;
@@ -197,10 +274,18 @@ export const YTHImg = styled.div`
 `;
 
 export const ServiceBox = styled.div`
-    
+    @media only screen and (max-width: 768px){
+        width:90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
 `;
 
 export const GeneralTitle = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 30px;
+        line-height: 3;
+    }
     margin: 0;
     font-size: 70px;
     font-weight: 500;
@@ -209,6 +294,10 @@ export const GeneralTitle = styled.h1`
 `;
 
 export const GeneralSlideAndContentBox = styled.div`
+    @media only screen and (max-width: 768px){
+        display: block;
+        margin-bottom: 0;
+    }
     width: 90%;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -217,11 +306,33 @@ export const GeneralSlideAndContentBox = styled.div`
 `;
 
 export const GeneralSlideBox = styled.div`
+    @media only screen and (max-width: 768px){
+        display: none;
+    }
     height: 360px;
     width: 30%;
 `;
 
 export const GeneralContentBox = styled.div`
+    @media only screen and (max-width: 768px){
+        width:100%;
+        padding:10px;
+
+        position: relative;
+        & :before{
+            content: "";
+            background-image: url(${GIImg});
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.2;
+            position: absolute;
+        }
+    }
     width: 65%;
     border: 3px solid #A67951;
     box-sizing: border-box;
@@ -231,6 +342,9 @@ export const GeneralContentBox = styled.div`
 `;
 
 export const GeneralContent = styled.p`
+    @media only screen and (max-width: 768px){
+        font-size: 10px;
+    }
     margin: 0 auto;
     font-size: 23px;
     line-height: 2.5;
@@ -240,6 +354,10 @@ export const GeneralContent = styled.p`
 `;
 
 export const DocumentTitle = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 30px;
+        line-height: 3;
+    }
     margin: 0;
     font-size: 70px;
     font-weight: 500;
@@ -248,6 +366,10 @@ export const DocumentTitle = styled.h1`
 `;
 
 export const DocumentSlideAndContentBox = styled.div`
+    @media only screen and (max-width: 768px){
+        display: block;
+        margin-bottom: 0;
+    }
     width: 90%;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -256,6 +378,25 @@ export const DocumentSlideAndContentBox = styled.div`
 `;
 
 export const DocumentContentBox = styled.div`
+    @media only screen and (max-width: 768px){
+        width:100%;
+        padding:10px;
+
+        position: relative;
+        & :before{
+            content: "";
+            background-image: url(${DIImg});
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.2;
+            position: absolute;
+        }
+    }
     width: 65%;
     border: 3px solid #A67951;
     box-sizing: border-box;
@@ -265,6 +406,9 @@ export const DocumentContentBox = styled.div`
 `;
 
 export const DocumentContent = styled.p`
+    @media only screen and (max-width: 768px){
+        font-size: 10px;
+    }
     margin: 0 auto;
     font-size: 23px;
     line-height: 2.5;
@@ -274,11 +418,18 @@ export const DocumentContent = styled.p`
 `;
 
 export const DocumentSlideBox = styled.div`
+    @media only screen and (max-width: 768px){
+        display: none;
+    }
     height: 360px;
     width: 30%;
 `;
 
 export const PhoneTitle = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 30px;
+        line-height: 3;
+    }
     margin: 0;
     font-size: 70px;
     font-weight: 500;
@@ -287,6 +438,10 @@ export const PhoneTitle = styled.h1`
 `;
 
 export const PhoneSlideAndContentBox = styled.div`
+    @media only screen and (max-width: 768px){
+        display: block;
+        margin-bottom: 0;
+    }
     width: 90%;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -295,11 +450,33 @@ export const PhoneSlideAndContentBox = styled.div`
 `;
 
 export const PhoneSlideBox = styled.div`
+    @media only screen and (max-width: 768px){
+        display: none;
+    }
     height: 360px;
     width: 40%;
 `;
 
 export const PhoneContentBox = styled.div`
+    @media only screen and (max-width: 768px){
+        width:100%;
+        padding:10px;
+
+        position: relative;
+        & :before{
+            content: "";
+            background-image: url(${PIImg});
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.2;
+            position: absolute;
+        }
+    }
     width: 55%;
     border: 3px solid #A67951;
     box-sizing: border-box;
@@ -309,6 +486,9 @@ export const PhoneContentBox = styled.div`
 `;
 
 export const PhoneContent = styled.p`
+    @media only screen and (max-width: 768px){
+        font-size: 10px;
+    }
     margin: 0 auto;
     font-size: 23px;
     line-height: 2.5;
