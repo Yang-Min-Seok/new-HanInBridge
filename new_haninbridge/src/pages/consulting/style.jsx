@@ -10,6 +10,11 @@ export const Intro = styled.div`
 `;
 
 export const IntroUpTitle = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 30px;
+        letter-spacing: 5px;
+        margin-top: 20px;
+    }
     margin: 0;
     margin-top: 50px;
     font-size: 60px;
@@ -19,6 +24,11 @@ export const IntroUpTitle = styled.h1`
 `;
 
 export const IntroDownTitle = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 25px;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+    }
     margin: 0;
     margin-bottom: 50px;
     font-size: 50px;
@@ -28,6 +38,9 @@ export const IntroDownTitle = styled.h1`
 `;
 
 export const IntroContentBox = styled.div`
+    @media only screen and (max-width: 768px){
+        padding: 15px;
+    }
     width:90%;
     margin: 0 auto;
     padding: 50px;
@@ -53,6 +66,9 @@ export const IntroContentBox = styled.div`
 `;
 
 export const IntroContent = styled.p`
+    @media only screen and (max-width: 768px){
+        font-size: 11px;
+    }
     margin: 0;
     line-height: 2;
     font-family: 'Times New Roman', Times, serif;
@@ -66,6 +82,12 @@ export const History = styled.div`
 `;
 
 export const HistoryTitle = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 25px;
+        letter-spacing: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     margin: 0;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -75,6 +97,9 @@ export const HistoryTitle = styled.h1`
 `;
 
 export const SlideBox = styled.div`
+    @media only screen and (max-width: 768px){
+        height:300px;
+    }
     width: 90%;
     height: 600px;
     margin: 0 auto;
@@ -83,6 +108,11 @@ export const SlideBox = styled.div`
 `;
 
 export const HistoryContentBox = styled.div`
+    @media only screen and (max-width: 768px){
+        padding: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     
     width: 90%;
     margin: 0 auto;
@@ -111,6 +141,9 @@ export const HistoryContentBox = styled.div`
 `;
 
 export const HistoryContent = styled.p`
+    @media only screen and (max-width: 768px){
+        font-size: 11px;
+    }
     margin: 0;
     line-height: 2;
     font-family: 'Times New Roman', Times, serif;
