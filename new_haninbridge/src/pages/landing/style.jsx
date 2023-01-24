@@ -7,8 +7,47 @@ export const FlexDiv = styled.div`
     display: flex;
 `;
 
+export const ResUpTitle = styled.h1`
+    // for smartphone
+    @media only screen and (max-width: 768px){
+        margin: 0;
+        margin-top: 50px;
+        display:inline-block;
+        width:100%;
+        text-align: center;
+        color:#A75951;
+        font-size: 35px;
+        line-height: 1;
+    }
+
+    // for Pc
+    display: none;
+`
+
+export const ResDownTitle = styled.h1`
+    // for smartphone
+    @media only screen and (max-width: 768px){
+        margin: 0;
+        margin-bottom: 10px;
+        display:inline-block;
+        width:100%;
+        text-align: center;
+        color:#A75951;
+        font-size:30px;
+        line-height: 2;
+    }
+    // for Pc
+    display: none;
+`
 export const Ul = styled.ul`
     
+    // for smartphone
+    @media only screen and (max-width: 768px){
+        width: 60%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
     width:20%;
     padding-left: 0;
     padding-top: 50px;
@@ -75,6 +114,7 @@ export const Ul = styled.ul`
     }
 
     li p link {
+        margin: 0;
         text-decoration: none;
     }
 `;
@@ -82,6 +122,11 @@ export const Ul = styled.ul`
 // How to plant background img and make it only opacified
 export const ImgContainorDefault = styled.div`
     
+    // for smartphone
+    @media only screen and (max-width: 768px){
+        display: none;   
+    }
+
     display:flex;
     flex-direction: column;
     justify-content: center;

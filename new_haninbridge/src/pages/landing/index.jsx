@@ -1,6 +1,6 @@
 import Wrapper from "../../styles/wrap";
 import Img from "../../pages/landing/img"
-import { FlexDiv, Ul } from "./style";
+import { FlexDiv, Ul, ResUpTitle, ResDownTitle } from "./style";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -18,7 +18,9 @@ function Landing () {
     return (
             // Landing
             <Wrapper>
-                <FlexDiv>
+                <ResUpTitle>Hello</ResUpTitle>
+                <ResDownTitle>We are HanIn Bridge !</ResDownTitle>
+                <FlexDiv>    
                     <Ul>
                         <li onMouseEnter={()=>handleMouseEnter('aboutus')}
                         onMouseLeave={()=>handleMouseEnter('default')}>
@@ -34,7 +36,6 @@ function Landing () {
                         </li>
                     </Ul>
                     <Img currImg={currImg}></Img>
-                    
                 </FlexDiv>
             </Wrapper>
     );
