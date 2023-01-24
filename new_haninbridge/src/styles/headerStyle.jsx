@@ -7,8 +7,8 @@ export const HeaderDiv = styled.div`
 
 export const HeaderLogo = styled.div`
     @media only screen and (max-width: 768px){
-        height: 100px;
-        width: 200px;
+        height: 75px;
+        width: 150px;
     }
     height: 150px;
     width: 300px;
