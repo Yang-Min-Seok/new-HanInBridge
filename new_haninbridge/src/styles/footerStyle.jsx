@@ -4,7 +4,8 @@ import footerLogo from "../resources/images/logos/footer_logo.png"
 
 export const FooterDiv = styled.div`
     @media only screen and (max-width: 768px){
-        padding-top: 20px;    
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     background-color: #5a5a5a;
     padding-top: 40px;
