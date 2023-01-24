@@ -10,6 +10,11 @@ export const IntroBox = styled.div`
 `;
 
 export const IntroUpTitle = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 30px;
+        line-height: 3;
+        letter-spacing: 5px;
+    }
     margin: 0;
     font-size: 70px;
     font-weight: 100;
@@ -19,6 +24,11 @@ export const IntroUpTitle = styled.h1`
 `;
 
 export const IntroDownTitle = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 30px;
+        letter-spacing: 5px;
+        font-weight: 700;
+    }
     margin: 0;
     font-size: 55px;
     font-weight: 700;
@@ -28,6 +38,10 @@ export const IntroDownTitle = styled.h1`
 `;
 
 export const IntroContentBox = styled.div`
+    @media only screen and (max-width: 768px){
+        margin-top: 20px;
+        padding:10px;
+    }
     width:90%;
     margin: 0 auto;
     margin-top: 50px;
@@ -52,6 +66,10 @@ export const IntroContentBox = styled.div`
 `;
 
 export const IntroContent = styled.p`
+    @media only screen and (max-width: 768px){
+        font-size: 10px;
+        font-weight: 900;
+    }
     margin: 0;
     font-size: 30px;
     line-height: 2.5;
@@ -64,6 +82,11 @@ export const PartnerBox = styled.div`
     
 `;
 export const PartnerTitle = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size:30px;
+        line-height: 3;
+        letter-spacing: 5px;
+    }
     margin: 0;
     font-size: 70px;
     font-weight: 100;
@@ -73,21 +96,31 @@ export const PartnerTitle = styled.h1`
 `;
 
 export const PartnerSlide = styled.div`
+    @media only screen and (max-width: 768px){
+        height:250px;
+    }
     width: 90%;
     height: 700px;
     margin: 0 auto;
     border: 3px solid #A67951;
     box-sizing: border-box;
-
 `;
 
 export const DirectorBox = styled.div`
+    @media only screen and (max-width: 768px){
+        margin-bottom: 20px;
+    }
     width:90%;
     margin: 0 auto;
     margin-bottom: 50px;
 `;
 
 export const DirectorTitle = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 3;
+    }
     margin: 0;
     font-size: 70px;
     font-weight: 100;
@@ -96,11 +129,19 @@ export const DirectorTitle = styled.h1`
     line-height: 3;
 `;
 export const DirectorContentBox = styled.div`
+    @media only screen and (max-width: 768px){
+        display: block;
+    }
     display: flex;
     justify-content: space-between;
 `;
 
 export const DirectorImg = styled.div`
+    @media only screen and (max-width: 768px){
+        height:400px;
+        width: 100%;
+        background-position-y: -100px;
+    }
     width: 45%;
     background-image: url(${CeoImg});
     background-repeat: no-repeat;
@@ -109,10 +150,16 @@ export const DirectorImg = styled.div`
 `;
 
 export const DirectorNameAndContentBox = styled.div`
+    @media only screen and (max-width: 768px){
+        width: 100%;
+    }
     width: 45%;
 `;
 
 export const DirectorName = styled.h1`
+    @media only screen and (max-width: 768px){
+        font-size: 30px;
+    }
     margin: 0 auto;
     margin-bottom: 20px;
     text-align: center;
@@ -124,6 +171,9 @@ export const DirectorName = styled.h1`
 `;
 
 export const DirectorContent = styled.p`
+    @media only screen and (max-width: 768px){
+        font-size: 13px;
+    }
     margin: 0;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
