@@ -3,6 +3,9 @@ import styled from "styled-components";
 import footerLogo from "../resources/images/logos/footer_logo.png"
 
 export const FooterDiv = styled.div`
+    @media only screen and (max-width: 768px){
+        padding-top: 20px;    
+    }
     background-color: #5a5a5a;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -12,7 +15,10 @@ export const FooterDiv = styled.div`
 `;
 
 export const FooterLogo = styled.div`
-    
+    @media only screen and (max-width: 768px){
+        height:35px;
+        text-align: center;
+    }
     width: 80%;
     height: 60px;
     margin: 0 auto;
@@ -25,6 +31,9 @@ export const FooterLogo = styled.div`
 `;
 
 export const InfoDiv = styled.div`
+    @media only screen and (max-width: 768px){
+        display:block;
+    }
     width:80%;
     margin: 0 auto;
     display:flex;
@@ -35,6 +44,9 @@ export const AddressAndCopyright = styled.div`
     
     /* address */
     p {
+        @media only screen and (max-width: 768px){
+            font-size: 10px;
+        }
         color: #fff;
         font-family: sans-serif;
         font-size: 18px;
@@ -43,6 +55,9 @@ export const AddressAndCopyright = styled.div`
     /* copy right */
     & :nth-child(3) {
         font-family: 'Times New Roman', Times, serif;
+        @media only screen and (max-width: 768px){
+            display: none;
+        }
     }
 `;
 
@@ -50,6 +65,9 @@ export const ContactAndRegisteredNumber = styled.div`
     
     /* contact & registered num */
     p {
+        @media only screen and (max-width: 768px){
+            font-size: 10px;
+        }
         color: #fff;
         font-family: sans-serif;
         font-size: 18px;
