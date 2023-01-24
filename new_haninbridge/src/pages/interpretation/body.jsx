@@ -1,4 +1,4 @@
-import { BodyDiv, IntroBox, IntroUpTitle, IntroDownTitle, IntroContentBox, IntroContent, InterpreterBox, InterpreterUpTitle, InterpreterDownTitle, PJWBox, PJWImg, PJWContentBox, PJWName, PJWContent, PJWResume, YTHBox, YTHContentBox, YTHName, YTHContent, YTHResume, YTHImg, ServiceBox, GeneralTitle, GeneralSlideAndContentBox, GeneralSlideBox, GeneralContentBox, GeneralContent, DocumentTitle, DocumentSlideAndContentBox, DocumentContentBox, DocumentContent, DocumentSlideBox, PhoneTitle, PhoneSlideAndContentBox, PhoneSlideBox, PhoneContentBox, PhoneContent } from "./style";
+import { BodyDiv, IntroBox, IntroUpTitle, IntroDownTitle, IntroContentBox, IntroContent, InterpreterBox, InterpreterUpTitle, InterpreterDownTitle, PJWBox, PJWImg, PJWContentBox, PJWName, PJWContent, PJWResume, YTHBox, YTHContentBox, YTHName, YTHContent, YTHResume, YTHImg, ServiceBox, GeneralTitle, GeneralSlideAndContentBox, GeneralSlideBox, GeneralContentBox, YTHImgRes, GeneralContent, DocumentTitle, DocumentSlideAndContentBox, DocumentContentBox, DocumentContent, DocumentSlideBox, PhoneTitle, PhoneSlideAndContentBox, PhoneSlideBox, PhoneContentBox, PhoneContent } from "./style";
 
 // swiper Js setting
 import "swiper/css/bundle";
@@ -47,6 +47,7 @@ function Body() {
                 </PJWBox>
                 <YTHBox>
                     <YTHContentBox>
+                    <YTHImgRes></YTHImgRes>
                         <YTHName>양태훈 통 ・ 번역사</YTHName>
                         <YTHContent>
                             ・ 서울 중앙대학교 공과대학 기계공학부 졸업<br />

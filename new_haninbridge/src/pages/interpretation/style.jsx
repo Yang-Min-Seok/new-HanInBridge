@@ -217,6 +217,18 @@ export const YTHContentBox = styled.div`
     }
 `;
 
+export const YTHImgRes = styled.div`
+    @media only screen and (max-width: 768px){
+        display:block;
+        height:350px;
+        background-image: url(${YTHImage});
+        background-repeat: no-repeat;
+        background-position-y: -150px;
+        background-size: cover;
+    }
+    display: none;
+`
+
 export const YTHName = styled.h1`
     @media only screen and (max-width: 768px){
         font-size: 30px;
