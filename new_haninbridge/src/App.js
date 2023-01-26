@@ -7,7 +7,7 @@ function App() {
   return (
     // Routing format
     <div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path={`/`} element={<Landing />}></Route>
           <Route path={`/aboutus`} element={<Aboutus />}></Route>
