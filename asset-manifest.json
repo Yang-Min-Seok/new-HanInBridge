@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new-HanInbridge/static/css/main.3eadc098.css",
-    "main.js": "/new-HanInbridge/static/js/main.043ec8c2.js",
+    "main.js": "/new-HanInbridge/static/js/main.915a5c72.js",
     "static/media/director.jpeg": "/new-HanInbridge/static/media/director.9c7592a539804b019ea0.jpeg",
     "static/media/pjw.jpeg": "/new-HanInbridge/static/media/pjw.9c7592a539804b019ea0.jpeg",
     "static/media/yth.jpeg": "/new-HanInbridge/static/media/yth.73975ec8311ce86efee3.jpeg",
@@ -25,10 +25,10 @@
     "static/media/adapt.png": "/new-HanInbridge/static/media/adapt.57498ac78f33b9a8de7f.png",
     "index.html": "/new-HanInbridge/index.html",
     "main.3eadc098.css.map": "/new-HanInbridge/static/css/main.3eadc098.css.map",
-    "main.043ec8c2.js.map": "/new-HanInbridge/static/js/main.043ec8c2.js.map"
+    "main.915a5c72.js.map": "/new-HanInbridge/static/js/main.915a5c72.js.map"
   },
   "entrypoints": [
     "static/css/main.3eadc098.css",
-    "static/js/main.043ec8c2.js"
+    "static/js/main.915a5c72.js"
   ]
 }
