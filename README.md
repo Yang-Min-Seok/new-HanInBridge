@@ -22,11 +22,10 @@ PC ver.
 <img width="1920" alt="스크린샷 2023-01-26 21 16 03" src="https://user-images.githubusercontent.com/83502596/214833337-3e5750d8-28f8-4639-a825-dd91d24c99d0.png">
 
 SmartPhone ver.
-![KakaoTalk_Photo_2023-01-26-21-14-30 001](https://user-images.githubusercontent.com/83502596/214833391-3eb517c9-c1a5-426f-bfd9-efd65bd41b1c.png)
-![KakaoT![KakaoTalk_Photo_2023-01-26-21-14-34 003](https://user-images.githubusercontent.com/83502596/214833423-aa832db9-f4a5-46ac-9b87-f52b53dc84ee.png)
-alk_Photo_2023-01-26-21-14-32 002](https://user-images.githubusercontent.com/83502596/214833407-57b81967-0162-41e9-a932-ef800bf![KakaoTalk_Photo_2023-01-26-21-14-35 004](https://user-images.githubusercontent.com/83502596/214833434-1d0ed70f-4099-4a07-a9dc-858f43e62676.png)
-76c6b.png)
-
+![KakaoTalk_Photo_2023-01-26-21-14-30 001](https://user-images.githubusercontent.com/83502596/214833639-cc8ce594-8842-45![KakaoTalk_Photo_2023-01-26-21-14-32 002](https://user-images.githubusercontent.com/83502596/214833663-19d19e43-2a62-4043-a0c1-5385fb0f026d.png)
+84-bff4-1e551eea2e8c.png)
+![KakaoTalk_Photo_2023-01-26-21-14-34 003](https://user-images.githubusercontent.com/83502596/214833679-94b27df4-cb96-45e0-830b-85eec8802d1a.png)
+![KakaoTalk_Photo_2023-01-26-21-14-35 004](https://user-images.githubusercontent.com/83502596/214833692-c3ef1448-825b-4c2a-83ac-6ae4ce72b153.png)
 
 
 
