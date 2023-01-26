@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/new-HanInbridge/static/css/main.3eadc098.css",
+    "main.js": "/new-HanInbridge/static/js/main.043ec8c2.js",
+    "static/media/director.jpeg": "/new-HanInbridge/static/media/director.9c7592a539804b019ea0.jpeg",
+    "static/media/pjw.jpeg": "/new-HanInbridge/static/media/pjw.9c7592a539804b019ea0.jpeg",
+    "static/media/yth.jpeg": "/new-HanInbridge/static/media/yth.73975ec8311ce86efee3.jpeg",
+    "static/media/Consulting_2.jpeg": "/new-HanInbridge/static/media/Consulting_2.614bd40cd9b668e3dcd8.jpeg",
+    "static/media/phone_urgent.jpg": "/new-HanInbridge/static/media/phone_urgent.3b14e9263f9f1a86656e.jpg",
+    "static/media/consulting.jpg": "/new-HanInbridge/static/media/consulting.a3b5af826995f7361b4f.jpg",
+    "static/media/introBackground.jpg": "/new-HanInbridge/static/media/introBackground.c1f695803518a51e5b85.jpg",
+    "static/media/document_interpretation_1.jpg": "/new-HanInbridge/static/media/document_interpretation_1.1ea52d25a611f5b44971.jpg",
+    "static/media/document_interpretation_2.jpg": "/new-HanInbridge/static/media/document_interpretation_2.9b46e52c8d81eb622953.jpg",
+    "static/media/hello.jpg": "/new-HanInbridge/static/media/hello.ea949538e4ecd2380ad8.jpg",
+    "static/media/pathBackground.jpg": "/new-HanInbridge/static/media/pathBackground.4079197c9b4bf8aa28c6.jpg",
+    "static/media/interpreation.jpg": "/new-HanInbridge/static/media/interpreation.224079ee87b90498168b.jpg",
+    "static/media/general_interpretation_1.png": "/new-HanInbridge/static/media/general_interpretation_1.5bde2a2c4891b17d9db5.png",
+    "static/media/aboutUs.jpg": "/new-HanInbridge/static/media/aboutUs.bce50708d0082611552a.jpg",
+    "static/media/general_interpretation_3.jpeg": "/new-HanInbridge/static/media/general_interpretation_3.57dfa96b9644980ff640.jpeg",
+    "static/media/general_interpretation_2.jpeg": "/new-HanInbridge/static/media/general_interpretation_2.5eed70102386637414fb.jpeg",
+    "static/media/phone_interpretation.png": "/new-HanInbridge/static/media/phone_interpretation.af62fa47b73f1ee0f0b4.png",
+    "static/media/innoderm.png": "/new-HanInbridge/static/media/innoderm.b0e568d12d4a337fc62f.png",
+    "static/media/Consulting_1.jpeg": "/new-HanInbridge/static/media/Consulting_1.3336d05bae08b97084fc.jpeg",
+    "static/media/logo.jpeg": "/new-HanInbridge/static/media/logo.0e5c3de5eae9c08a6311.jpeg",
+    "static/media/adapt.png": "/new-HanInbridge/static/media/adapt.57498ac78f33b9a8de7f.png",
+    "index.html": "/new-HanInbridge/index.html",
+    "main.3eadc098.css.map": "/new-HanInbridge/static/css/main.3eadc098.css.map",
+    "main.043ec8c2.js.map": "/new-HanInbridge/static/js/main.043ec8c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3eadc098.css",
+    "static/js/main.043ec8c2.js"
+  ]
+}
