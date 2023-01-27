@@ -1,5 +1,5 @@
 # new-HanInBridge
-Refactoring HanInBridge(which was made by vanila JS) by ReactJS
+Refactoring HanInBridge(which was made by vanilla JS) by ReactJS
 
 Used Framework : ReactJS
 
